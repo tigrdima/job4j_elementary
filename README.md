@@ -3,28 +3,13 @@
 
 - 1.1.2. Тип данных
 
-  - 4.1. Аргументы
+  - 4.2. Результат работы метода.
 
-  В этом уроке изучил синтаксис написания метода :
-  Java - строго типизированный язык. Если аргумент имеет
-  тип String, то вызывать метод можно, только указав
-  аргумент с типом String.
+  В этом уроке изучил ,  метод с невозвращаемым результат (void)
+   и возвращаемый результат (byte, short, int, long, float, double, boolean):
 
+  И добавил в код :
 
-  И исправил неверный код :
-
-  public class ArgMethod {
-
-      public static void hello(String name, int age) {
-          System.out.println("Hello, " + name + ", age = " + age);
-      }
-
-      public static void main(String[] args) {
-          String name = "Job4j";
-          int age = 6;
-          ArgMethod.hello(name);
-          ArgMethod.hello(name, age);
-          ArgMethod.hello(age);
-          ArgMethod.hello(age, name);
-      }
-  }
+   в метод main код, который вызовет метод
+   func1 с аргументом x = 100,
+ Результат вычисления записал в переменную result3.
