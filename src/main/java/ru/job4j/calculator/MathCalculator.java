@@ -7,7 +7,8 @@ public class MathCalculator {
                 + multiply(first, second);
     }
     public static double minusDivisionTwoNumbers(double first, double second) {
-        return minus(first, second) + division(first, second);
+        return minus(first, second)
+                + division(first, second);
     }
     public static double sumMultiplyMinusDivision(double first, double second) {
         return sum(first, second) + multiply(first, second) + minus(first, second) + division(first, second);
