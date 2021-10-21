@@ -6,7 +6,7 @@ import org.junit.Assert;
 public class SqAreaTest {
 
     @Test
-    public void whenP6K2square2() {
+    public void whenP6K2Square2() {
         double expected = 2;
         double p = 6;
         double k = 2;
@@ -15,7 +15,7 @@ public class SqAreaTest {
     }
 
     @Test
-    public void whenP8K1square2() {
+    public void whenP8K1Square4() {
             double expected = 4;
             double p = 8;
             double k = 1;
@@ -24,7 +24,7 @@ public class SqAreaTest {
     }
 
     @Test
-    public void whenP1K1square2() {
+    public void whenP1K1Square0Dot06() {
             double expected = 0.06;
             double p = 1;
             double k = 1;
