@@ -9,7 +9,7 @@ public class DivideBySixTest {
     public void whenNumberDivideBy6() {
         int in = 24;
         String result = DivideBySix.checkNumber(in);
-        String expected = "Число делттся на 6 без остатка.";
+        String expected = "Исходное число делится на 6 без остатка.";
         Assert.assertEquals(result, expected);
     }
 
