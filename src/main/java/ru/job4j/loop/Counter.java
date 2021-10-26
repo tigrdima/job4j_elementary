@@ -14,7 +14,8 @@ public class Counter {
             return sum;
         }
     }
-        public static void main(String[]args) {
+
+     public static void main(String[]args) {
             System.out.println(sum(0, 2));
             System.out.println(sum(1, 3));
             System.out.println(sum(3, 3));
