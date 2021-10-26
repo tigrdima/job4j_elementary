@@ -6,6 +6,6 @@ public class Triangle {
     }
 
     public static void main(String[]args) {
-        System.out.println("Треугольник существует : " + exist(3, 4, 5));
+        System.out.println("Треугольник существует  : " + exist(3, 4, 5));
     }
 }
