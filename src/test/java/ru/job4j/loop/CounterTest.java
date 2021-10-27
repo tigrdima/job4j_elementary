@@ -6,12 +6,12 @@ import org.junit.Assert;
 
 public class CounterTest {
 
-    @Test
+   @Test
     public void whenSumEvenNumbersFrom1To10Then30() {
-        int start = 2;
-        int finish = 2;
+        int start = 1;
+        int finish = 10;
         int result = Counter.sumByEven(start, finish);
-        int expected = 4;
+        int expected = 30;
         Assert.assertEquals(result, expected);
     }
 
