@@ -9,13 +9,11 @@ public class Machine {
         int[] rsl = new int[100];
         int size = 0;
 
-        for (int i = 0; i < coins.length; i++) {
-            if (change == 0) {
-                break;
-            }
-            while (change >= coins[i]) {
-                change -= coins[i];
-                rsl[size] = coins[i];
+        for (int i : coins) {
+
+            while (change >= i) {
+                change -= i;
+                rsl[size] = i;
                 size += 1;
             }
         }
