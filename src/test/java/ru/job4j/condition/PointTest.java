@@ -26,10 +26,6 @@ public class PointTest {
     @Test
     public void when13to01Then2Dot23() {
         double expected = 2.23;
-        int x1 = 1;
-        int y1 = 3;
-        int x2 = 0;
-        int y2 = 1;
         Point a = new Point(1, 3);
         Point b = new Point(0, 1);
         double out = b.distance(a);
